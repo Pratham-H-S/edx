@@ -9,7 +9,8 @@ app = Flask(__name__,
 def home():
   return render_template("index.html")
 
-
+def location():
+  return render_template("location.html")
 
 
 
